@@ -128,3 +128,12 @@ td {
   font-size: 10px;
   color: rgb(147, 166, 192);
 }
+
+.footer:hover {
+  color: red;
+}
+
+.gitImage {
+  width: 10px;
+  display: inline;
+}
