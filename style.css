@@ -123,3 +123,8 @@ td {
   padding: 20px;
   box-shadow: 5px 5px rgb(147, 166, 192);
 }
+
+.footer {
+  font-size: 10px;
+  color: rgb(147, 166, 192);
+}
