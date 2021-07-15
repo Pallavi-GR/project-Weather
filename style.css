@@ -1,0 +1,125 @@
+body {
+  width: 60%;
+  margin: 50px auto;
+  background: linear-gradient(
+    181.2deg,
+    rgb(181, 239, 249) 10.5%,
+    rgb(254, 254, 254) 86.8%
+  );
+}
+
+h1 {
+  text-align: center;
+  display: block;
+  padding-left: 38px;
+  font-size: 50px;
+  font-family: "PT MONO", monospace;
+  color: rgb(35, 26, 114);
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.search {
+  font-family: "PT MONO", monospace;
+  font-size: 20px;
+  color: rgb(35, 26, 114);
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form {
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "PT MONO", monospace;
+  font-size: 18px;
+  border-radius: 10px;
+  text-emphasis: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.place {
+  font-size: 30px;
+  font-family: "PT MONO", monospace;
+  color: rgb(27, 123, 201);
+  text-shadow: 1px 1px 1px #0a60d1;
+}
+
+.dandt {
+  font-size: 20px;
+  font-family: "PT MONO", monospace;
+  color: steelblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 90px;
+}
+.temp {
+  font-size: 60px;
+  color: rgb(35, 26, 114);
+}
+.forecast {
+  font-size: 16px;
+  font-family: "PT MONO", monospace;
+  color: steelblue;
+}
+.others {
+  font-size: 16px;
+  font-family: "PT MONO", monospace;
+  color: steelblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 90px;
+}
+
+.future {
+  text-align: center;
+  padding: 10px 10px;
+  margin: auto;
+  color: steelblue;
+}
+
+ul {
+  list-style: none;
+  font-family: "PT MONO", monospace;
+  font-size: 16px;
+}
+
+table,
+th,
+td {
+  border: 1px dotted rgb(111, 137, 161);
+  padding: 10px;
+  margin: auto;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.weather {
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 5px 5px rgb(147, 166, 192);
+}
