@@ -137,3 +137,9 @@ td {
   width: 10px;
   display: inline;
 }
+
+p {
+  display: inline;
+  font-size: 10px;
+  color: rgb(147, 166, 192);
+}
