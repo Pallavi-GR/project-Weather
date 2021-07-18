@@ -127,6 +127,7 @@ td {
 .footer {
   font-size: 10px;
   color: rgb(147, 166, 192);
+  text-decoration: none;
 }
 
 .footer:hover {
