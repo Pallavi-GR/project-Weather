@@ -99,7 +99,6 @@ function showTemp(response) {
 
   let searchDisplay = document.querySelector("#placeDisplay");
   searchDisplay.innerHTML = `${city}`;
-  //console.log(city);
 
   let temperature = Math.round(response.data.main.temp);
   let temperatureElement = document.querySelector("#temp");
